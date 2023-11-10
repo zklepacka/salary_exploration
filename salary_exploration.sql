@@ -32,8 +32,12 @@ SELECT salary
 FROM salary
 ORDER BY salary DESC;
 
-
 -- AVERAGE SALARY under 30
+
+SELECT AVG(salary)
+FROM salary;
+
+-- AVERAGE SALARY under 30 by age
 
 DELETE FROM salary_copy WHERE age >= 30; 
 
